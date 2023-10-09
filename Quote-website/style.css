@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#81ecec;
+}
+.outer{
+    background-color:#00cec9;
+    border-radius: 3px;
+    position:relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,50%);
+    width:550px;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.outer .quote-box{
+    background-color: azure;
+    width:70%;
+    height:70%;
+    position:absolute;
+    border-radius:5px;
+    box-shadow: 2px 2px 4px gray;
+    text-align:center;
+}
+.outer .quote-box footer{
+    background-color:#00cec9 ;
+}
