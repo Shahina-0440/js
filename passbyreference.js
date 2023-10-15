@@ -1,0 +1,9 @@
+a=[1,2,3];
+b=a;
+a=[1,2,3,4];
+a={
+    id:101,
+    name:"s"
+}
+console.log(a);
+console.log(b)
