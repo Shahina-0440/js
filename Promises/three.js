@@ -9,7 +9,7 @@ const obj1=new Promise((resolve,reject)=>{
 const obj2=(id)=>{
     return new Promise((resolve,reject)=>{
         setTimeout((id)=>{
-            console.log(`my roll no ${id} and my name is shahina`)
+            resolve(`my roll no ${id} and my name is shahina`)
         },2000,id)
     })
 }
